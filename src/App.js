@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './component/Navbar';
 import Home from './component/Home';
 import Skills from './component/Skills';
+import Projects from './component/projects';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
     <div class="container">
       <Home   />
       <Skills />
+      <Projects />
     </div>
     
     
