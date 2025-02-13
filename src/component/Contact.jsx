@@ -13,16 +13,16 @@ const Contact = () => {
           CONTACT ME
         </h1>
         <div className="contact-icon">
-          <a href="" target="_blank" className="items">
+          <a href="https://www.linkedin.com/in/rony-kumar-272b6a195/" target="_blank" className="items">
             <CiLinkedin classname="icons" />
           </a>
-          <a href="" target="_blank" className="items">
+          <a href="https://www.facebook.com/share/15Bq7kCekv/" target="_blank" className="items">
             <CiFacebook classname="icons" />
           </a>
-          <a href="" target="_blank" className="items">
+          <a href="https://github.com/Ronikumar123" target="_blank" className="items">
             <FaGithubSquare classname="icons"  />
           </a>
-          <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank" className="items">
+          <a href="mailto:ronykumar85251@gmail.com" target="_blank" className="items">
             <SiGmail classname="icons"  />
           </a>
           
