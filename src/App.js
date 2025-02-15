@@ -5,8 +5,15 @@ import Home from './component/Home';
 import Skills from './component/Skills';
 import Projects from './component/projects';
 import Contact from './component/Contact';
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    Aos.init();
+  }, [])
+  
   return (
     // <div className="App">
     //   <header className="App-header">
